@@ -1,7 +1,8 @@
 require('dotenv').config();
 const sql = require('./sql');
 const fs = require('fs');
-const {token} = process.env;
+const config = require('./config');
+const { TOKEN } = config.DISCORD_BOT;
 const {
     Client,
     Collection,
@@ -41,4 +42,4 @@ for (const folder of functionFolders) {
 client.handleEvents();
 client.handleCommands();
 client.databaseConnection(sql);
-client.login(token);
+client.login(TOKEN);

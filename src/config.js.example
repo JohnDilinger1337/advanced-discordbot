@@ -1,0 +1,12 @@
+const config = {
+    DISCORD_BOT: {
+        TOKEN: 'YOUR_BOT_TOKEN',
+        CLIENT_ID: 'YOUR_BOT_ID',
+        GUILD_ID: 'YOUR_GUILD_ID',
+    },
+    DATABASE: 'DISCORD_BOT.sql',
+    DASHBOARD: {
+        TEST: 'TEST'
+    },
+}
+module.exports = config;
