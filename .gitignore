@@ -1,0 +1,4 @@
+/node_modules/
+/.env
+/database/DISCORD_BOT.sql
+/src/events/client/test.js
